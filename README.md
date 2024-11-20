@@ -5,8 +5,8 @@
   * Enter file name when prompted example: key
   * Enter passphrase when prompted (optional but recommended)
   * After running this command you should see these two files in ls **~/.ssh/**
-    * key
-    * key.pub
+    * key (private key)
+    * key.pub (public key)
   * Note: if the directory ~/.ssh/ does not exist create it:
     *  `mkdir -p ~/.ssh/`
     *  When directory is made, ensure you are in the directory of key and key.pub Then move files into ~/.ssh/
