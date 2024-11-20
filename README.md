@@ -9,6 +9,8 @@
     * key.pub
   * Note: if the directory ~/.ssh/ does not exist create it:
     *  `mkdir -p ~/.ssh/`
+    *  When directory is made, ensure you are in the directory of key and key.pub Then move files into ~/.ssh/
+       * `mv key key.pub ~/.ssh/`
 
 **Copy Public Key to the authorized_keys file on Linux Machine**
 | Method 1 | Method 2 Manual |
