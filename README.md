@@ -24,10 +24,10 @@
 
 **Recommended Security Configurations of SSH**
 * Enter this command: `sudo nano /etc/ssh/sshd_config` change the following areas:
-  * PubkeyAuthentication yes
-  * PasswordAuthentication no
-  * PermitRootLogin no
-  * Port 2222 (optional but recommended) 
+  * PubkeyAuthentication **yes**
+  * PasswordAuthentication **no**
+  * PermitRootLogin **no**
+  * Port **2222** (optional but recommended) 
  
 **Securely Copy Private Key to Linux or Windows PC**
 
