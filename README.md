@@ -7,4 +7,11 @@
   * After running this command you should see these two files in ls **~/.ssh/**
     * key
     * key.pub
+  * Note: if the directory ~/.ssh/ does not exist create it:
+    *  `mkdir -p ~/.ssh/`
+    *  `chmod 700 ~/.ssh/`
 
+**Copy Public Key to the authorized_keys file on Linux Machine**
+| Method 1 | Method 2 Manual |
+| --- | --- |
+| * `ssh-copy-id-i ~/.ssh/key.pub username@linux_ip_address` |  |
