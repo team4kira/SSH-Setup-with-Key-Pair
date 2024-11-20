@@ -9,9 +9,8 @@
     * key.pub
   * Note: if the directory ~/.ssh/ does not exist create it:
     *  `mkdir -p ~/.ssh/`
-    *  `chmod 700 ~/.ssh/`
 
 **Copy Public Key to the authorized_keys file on Linux Machine**
 | Method 1 | Method 2 Manual |
 | --- | --- |
-| * `ssh-copy-id-i ~/.ssh/key.pub username@linux_ip_address` |  |
+| • `ssh-copy-id-i ~/.ssh/key.pub username@linux_ip_address` <br> • `chmod 700 ~/.ssh/` <br> • `chmod 600 ~/.ssh/authorized_keys` | • Use option if directory ~/.ssh was missing <br> • `cat ~/.ssh/key.pub >> ~/.ssh/authorized_key` then change permissions: <br> • `chmod 700 ~/.ssh/` <br> • `chmod 600 ~/.ssh/authorized_keys` |
