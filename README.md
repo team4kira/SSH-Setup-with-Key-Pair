@@ -29,8 +29,8 @@
   * PermitRootLogin no
   * Port 2222 (optional but recommended) 
  
-**Securely Copy Private Key**
-* 
+**Securely Copy Private Key to Linux or PC**
+
 
 **SSH into Linux Machine from Linux or PC**
 | Linux | PC via MobaXterm |
