@@ -4,7 +4,7 @@
 * Enter this command: `ssh-keygen -t rsa -b 2048`
   * Enter file name when prompted example: key
   * Enter passphrase when prompted (optional but recommended)
-  * After running this command you should see these two files ~/ssh/ this command can be used to check: **ls ~/.ssh/**
+  * After running this command you should see these two files in ~/ssh/ , this command can be used to check: **ls ~/.ssh/**
     * key (private key)
     * key.pub (public key)
   * Note: if the directory ~/.ssh/ does not exist create it:
