@@ -2,6 +2,7 @@
 
 **Generate a SSH Key Pair on Linux Machine**
 * Enter this command: `ssh-keygen -t rsa -b 2048`
+  * Note: 2048 refers to the key length of RSA encryption. Anything between 2048 and 4096 bits is considered secure. However, the higher the encryption length, the slower the processing time.
   * Enter file name when prompted example: key
   * Enter passphrase when prompted (optional but recommended)
   * After running this command you should see these two files in ~/ssh/ , this command can be used to check: **ls ~/.ssh/**
